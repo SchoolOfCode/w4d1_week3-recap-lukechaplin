@@ -1,0 +1,167 @@
+
+:root {
+  --primary-color: #5a1ec3;
+ 
+}
+
+body {
+    background-color: var(--primary-color)
+  
+  }
+
+#title {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5d629;
+  }
+  
+#social {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #f5d629;
+  }
+
+  .h1 {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #f5d629;
+    text-decoration: underline;
+  }
+
+ .h2 {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #f5d629;
+    text-decoration: underline;
+  }
+  
+  #tribute-info {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5d629;
+  }
+  
+  #list-descrip {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5d629;
+  }
+  
+  #list {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    border-style: solid;
+    border-width: 10px;
+    border-color: orange;
+    border-radius: 25px;
+    background-image: linear-gradient(
+      45deg,
+      #dc143c 25%,
+      #000000 25%,
+      #dc143c 50%,
+      #000000 50%,
+      #dc143c 75%,
+      #dc143c 75%,
+      #000000 100%
+    );
+    background-size: 56.57px 56.57px;
+  }
+  
+  #image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #f5d629;
+    text-align: center;
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    border-radius: 25px;
+  }
+
+  .instagram {
+    position: relative;
+    width: 80%;
+    padding-bottom: 25%; 
+    height: 80%;
+    margin: 0 auto;
+  }
+  
+  .instagram instagram-media{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+  }
+
+  .iframe-container {
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin: 0 auto;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+  }
+  
+  #CV {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  #Luke_CV {
+    font-family: fantasy;
+    font-style: copperplate;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f5d629;
+  }
+  
+  #music {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #f5d629;
+    text-align: center;
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    border-radius: 25px;
+  }
+
+.dark-mode-theme {
+--primary-color: black;
+}

@@ -1,12 +1,10 @@
 
 :root {
   --primary-color: #5a1ec3;
- 
 }
 
 body {
     background-color: var(--primary-color)
-  
   }
 
 #title {
@@ -24,6 +22,14 @@ body {
     text-align: center;
     text-decoration: none;
     color: #f5d629;
+  }
+
+  a:hover {
+    transform: scale(2.1);
+  }
+
+  button {
+    border-radius: 25px;
   }
 
   .h1 {
@@ -72,17 +78,7 @@ body {
     border-width: 10px;
     border-color: orange;
     border-radius: 25px;
-    background-image: linear-gradient(
-      45deg,
-      #dc143c 25%,
-      #000000 25%,
-      #dc143c 50%,
-      #000000 50%,
-      #dc143c 75%,
-      #dc143c 75%,
-      #000000 100%
-    );
-    background-size: 56.57px 56.57px;
+    background-color: red;
   }
   
   #image {
@@ -116,19 +112,12 @@ body {
     height: 100%;
   }
 
-  .iframe-container {
-    position: relative;
-    width: 80%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin: 0 auto;
-  }
-  .iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 80%;
-    height: 100%;
+  #milkybar {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-left: 100px;
+    display: block;
   }
   
   #CV {
@@ -147,21 +136,6 @@ body {
     color: #f5d629;
   }
   
-  #music {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    color: #f5d629;
-    text-align: center;
-    border-style: solid;
-    border-width: 20px;
-    border-color: red;
-    border-radius: 25px;
-  }
-
 .dark-mode-theme {
 --primary-color: black;
 }

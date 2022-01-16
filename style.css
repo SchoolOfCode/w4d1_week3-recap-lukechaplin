@@ -31,47 +31,34 @@ body {
 
   button {
     border-radius: 25px;
+    font-family: 'Source Code Pro', monospace;
   }
 
   .h1 {
-    font-family: fantasy;
-    font-style: copperplate;
+    font-family: 'Source Code Pro', monospace;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: #f5d629;
-    text-decoration: underline;
-  }
-
- .h2 {
-    font-family: fantasy;
-    font-style: copperplate;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: #f5d629;
-    text-decoration: underline;
+   
   }
   
   #intro {
-    font-family: fantasy;
-    font-style: copperplate;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     font-weight: bold;
     color: #f5d629;
   }
   
   #list-descrip {
-    font-family: fantasy;
-    font-style: copperplate;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     font-weight: bold;
     color: #f5d629;
   }
   
   #list {
-    font-family: fantasy;
-    font-style: copperplate;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     font-weight: bold;
     color: orange;
@@ -123,30 +110,14 @@ body {
    
   }
   
-  #CV {
-    font-family: fantasy;
-    font-style: copperplate;
-    font-size: 40px;
-    font-weight: bold;
-    color: red;
-  }
-  
-  #Luke_CV {
-    font-family: fantasy;
-    font-style: copperplate;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f5d629;
-  }
   
 .dark-mode-theme {
 --primary-color: black;
 }
 
-
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: light purple;
   overflow: hidden;
 }
 
@@ -154,23 +125,24 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: yellow;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Source Code Pro', monospace;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(224, 108, 224);
+  color: yellow;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: rgb(224, 108, 224);
+  color: yellow;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -178,9 +150,8 @@ body {
   display: none;
 }
 
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;

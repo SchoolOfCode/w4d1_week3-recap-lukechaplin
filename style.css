@@ -34,7 +34,7 @@ body {
     border-radius: 25px;
     font-family: 'Source Code Pro', monospace;
     margin-top: 30px;
-    margin-left:525px;
+    position: relative;
   }
 
   .h1 {

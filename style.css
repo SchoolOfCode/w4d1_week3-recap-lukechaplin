@@ -34,6 +34,7 @@ body {
     border-radius: 25px;
     font-family: 'Source Code Pro', monospace;
     margin-top: 30px;
+    margin-left:525px;
   }
 
   .h1 {
@@ -46,6 +47,13 @@ body {
   }
   
   #intro {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5d629;
+  }
+
+  #skills {
     font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     font-weight: bold;

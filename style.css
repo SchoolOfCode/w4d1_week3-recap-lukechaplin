@@ -27,12 +27,8 @@ body {
     color: #f5d629;
   }
 
-  @media screen and (max-width: 600px) {
-    #social {display: inline-block;
-      overflow: hidden;
-      height: 60px;
-      vertical-align: top;
-    }
+  @media screen and (max-width: 1020px) {
+    #social {display: flex}
   }
 
   a:hover {

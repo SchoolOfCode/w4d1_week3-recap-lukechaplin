@@ -30,11 +30,18 @@ body {
     transform: scale(1.1);
   }
 
+#darkmode {
+  margin-top: 30px;  
+  font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5d629;
+}
 
 /* The switch - the box around the slider */
 .switch {
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px;
   display: inline-block;
   width: 90px;
   height: 34px;
@@ -73,11 +80,11 @@ body {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: rgb(224, 108, 224);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px rgb(224, 108, 224);
 }
 
 input:checked + .slider:before {

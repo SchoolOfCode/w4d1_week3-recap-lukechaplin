@@ -28,8 +28,10 @@ body {
   }
 
   @media screen and (max-width: 1020px) {
-    #social {vertical-align: top;}
-
+    #social {vertical-align: top;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   a:hover {

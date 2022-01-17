@@ -28,7 +28,7 @@ body {
   }
 
   @media screen and (max-width: 1020px) {
-    #social {vertical-align: middle;}
+    #social {vertical-align: top;}
 
   }
 

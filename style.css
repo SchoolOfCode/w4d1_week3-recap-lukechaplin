@@ -17,13 +17,19 @@ body {
   }
   
 #social {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  padding: 72px;
+  padding: 70px;
     font-size: 50px;
     width: 50px;
     text-decoration: none;
     color: #f5d629;
+  }
+
+  @media screen and (max-width: 1020px) {
+    #social {vertical-align: middle;}
+
   }
 
   a:hover {
@@ -255,8 +261,8 @@ input:checked + .slider .off
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+/* When the screen is less than 1020 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1020px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;

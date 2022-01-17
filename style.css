@@ -21,6 +21,7 @@ body {
     padding: 20px;
     font-size: 50px;
     width: 50px;
+    max-width: 260px;
     text-align: center;
     text-decoration: none;
     color: #f5d629;

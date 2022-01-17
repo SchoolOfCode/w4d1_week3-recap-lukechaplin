@@ -28,9 +28,10 @@ body {
   }
 
   @media screen and (max-width: 1020px) {
-    #social {vertical-align: top;
-      margin-left: auto;
-      margin-right: auto;
+    #social {display: inline-block;
+      overflow: hidden;
+      height: 60px;
+      vertical-align: top;
     }
   }
 

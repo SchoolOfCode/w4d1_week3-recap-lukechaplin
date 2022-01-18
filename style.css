@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: #5a1ec3;
+  --primary-color: #a3a5c3;
 }
 
 body {
@@ -85,11 +85,11 @@ body {
 }
 
 input:checked + .slider {
-  background-color: rgb(224, 108, 224);
+  background-color: #766c7f;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px rgb(224, 108, 224);
+  box-shadow: 0 0 1px #766c7f;
 }
 
 input:checked + .slider:before {
@@ -227,7 +227,6 @@ input:checked + .slider .off
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: light purple;
   overflow: hidden;
 }
 
@@ -245,13 +244,13 @@ input:checked + .slider .off
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(224, 108, 224);
+  background-color: #766c7f;
   color: yellow;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: rgb(224, 108, 224);
+  
   color: yellow;
 }
 

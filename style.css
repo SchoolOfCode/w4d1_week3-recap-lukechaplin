@@ -1,46 +1,46 @@
-
 :root {
   --primary-color: #a3a5c3;
 }
 
 body {
-    background-color: var(--primary-color)
-  }
-  
+  background-color: var(--primary-color);
+}
 
 #title {
-    font-family: fantasy;
-    font-style: copperplate;
-    font-size: 30px;
-    font-weight: bold;
-    color: #f5d629;
-  }
-  
+  font-family: fantasy;
+  font-style: copperplate;
+  font-size: 30px;
+  font-weight: bold;
+  color: yellow;
+}
+
 #social {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding: 70px;
-    font-size: 50px;
-    width: 50px;
-    text-decoration: none;
-    color: #f5d629;
-  }
+  font-size: 50px;
+  width: 50px;
+  text-decoration: none;
+  color: yellow;
+}
 
-  @media screen and (max-width: 1020px) {
-    #social {display: flex}
+@media screen and (max-width: 1020px) {
+  #social {
+    display: flex;
   }
+}
 
-  a:hover {
-    transform: scale(1.1);
-  }
+a:hover {
+  transform: scale(1.1);
+}
 
 #darkmode {
-  margin-top: 30px;  
-  font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f5d629;
+  margin-top: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
+  font-weight: bold;
+  color: yellow;
 }
 
 /* The switch - the box around the slider */
@@ -68,8 +68,8 @@ body {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -80,8 +80,8 @@ body {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -98,28 +98,28 @@ input:checked + .slider:before {
   transform: translateX(55px);
 }
 
-.on
-{
+.on {
   display: none;
 }
 
-.on, .off
-{
+.on,
+.off {
   color: white;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   font-size: 10px;
   font-family: Verdana, sans-serif;
 }
 
-input:checked+ .slider .on
-{display: block;}
+input:checked + .slider .on {
+  display: block;
+}
 
-input:checked + .slider .off
-{display: none;}
-
+input:checked + .slider .off {
+  display: none;
+}
 
 /* Rounded sliders */
 .slider.round {
@@ -130,99 +130,122 @@ input:checked + .slider .off
   border-radius: 50%;
 }
 
-  .h1 {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: #f5d629;
-   
-  }
-  
-  #intro {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f5d629;
-  }
+.h1 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+}
 
-  #skills {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f5d629;
-  }
-  
-  #list-descrip {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f5d629;
-  }
-  
-  #list {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color: orange;
-    border-style: solid;
-    border-width: 10px;
-    border-color: orange;
-    border-radius: 25px;
-    background-color: red;
-  }
-  
-  #image {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    color: #f5d629;
-    text-align: center;
-    border-style: solid;
-    border-width: 20px;
-    border-color: red;
-    border-radius: 25px;
-  }
+.column-4 {
+  float: left;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  height: 1000px;
+  top: 185px;
+  border-radius: 20px;
+  background-color: #cbc3e3;
+  box-shadow: 5px 10px;
+}
 
-  .instagram {
-    position: relative;
-    width: 80%;
-    padding-bottom: 25%; 
-    height: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  
-  .instagram instagram-media{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 80%;
-    height: 100%;
-  }
+.column-5 {
+  float: left;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  height: 400px;
+  top: 185px;
+  border-radius: 20px;
+  background-color: #cbc3e3;
+  box-shadow: 5px 10px;
+}
 
-  #milkybar {
-    width: 100%;
-    height: auto;
-    max-width: 260px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  
-  #contact {
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f5d629;
-  }
+.column-4:hover {
+  background-color: black;
+}
+
+.column-5:hover {
+  background-color: black;
+}
+
+#intro {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}
+
+#skills {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}
+
+#list-descrip {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}
+
+#interesting-facts {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  display: block;
+  text-align: center;
+  box-shadow: 5px 10px yellow;
+}
+
+.instagram {
+  position: relative;
+  width: 80%;
+  padding-bottom: 25%;
+  height: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.instagram instagram-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+}
+
+#milkybar {
+  width: 100%;
+  height: auto;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#contact {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+}
 
 .dark-mode-theme {
---primary-color: black;
+  --primary-color: black;
 }
 
 /* Add a black background color to the top navigation */
@@ -239,7 +262,7 @@ input:checked + .slider .off
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
 /* Change the color of links on hover */
@@ -250,7 +273,6 @@ input:checked + .slider .off
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  
   color: yellow;
 }
 
@@ -261,7 +283,9 @@ input:checked + .slider .off
 
 /* When the screen is less than 1020 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1020px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -270,7 +294,9 @@ input:checked + .slider .off
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 1020px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;

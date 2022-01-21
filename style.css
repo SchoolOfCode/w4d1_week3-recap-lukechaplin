@@ -7,8 +7,7 @@ body {
 }
 
 #title {
-  font-family: fantasy;
-  font-style: copperplate;
+  font-family: "Source Code Pro", monospace;
   font-size: 30px;
   font-weight: bold;
   color: yellow;

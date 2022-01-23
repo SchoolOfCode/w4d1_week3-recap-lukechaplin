@@ -138,28 +138,8 @@ input:checked + .slider .off {
   color: yellow;
 }
 
-.tile-1 {
-  float: left;
-  width: 95%;
-  padding: 10px;
-  margin: 10px;
-  height: 1000px;
-  top: 185px;
-  border-radius: 20px;
-  background-color: #cbc3e3;
-  box-shadow: 5px 10px;
-}
-
-.tile-2 {
-  float: left;
-  width: 95%;
-  padding: 10px;
-  margin: 10px;
-  height: 1000px;
-  top: 185px;
-  border-radius: 20px;
-  background-color: #cbc3e3;
-  box-shadow: 5px 10px;
+#h1:hover {
+  color: black;
 }
 
 #intro {
@@ -169,11 +149,19 @@ input:checked + .slider .off {
   color: yellow;
 }
 
+#intro:hover {
+  color: black;
+}
+
 #skills {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
   color: yellow;
+}
+
+#skills:hover {
+  color: black;
 }
 
 #aboutme {
@@ -183,11 +171,19 @@ input:checked + .slider .off {
   color: yellow;
 }
 
+#aboutme:hover {
+  color: black;
+}
+
 #interesting-facts {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
   color: yellow;
+}
+
+#interesting-facts:hover {
+  color: black;
 }
 
 #image {
@@ -236,6 +232,10 @@ input:checked + .slider .off {
   font-size: 20px;
   font-weight: bold;
   color: yellow;
+}
+
+#contact:hover {
+  color: black;
 }
 
 .dark-mode-theme {

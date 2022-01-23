@@ -155,7 +155,7 @@ input:checked + .slider .off {
   width: 95%;
   padding: 10px;
   margin: 10px;
-  height: 400px;
+  height: 350px;
   top: 185px;
   border-radius: 20px;
   background-color: #cbc3e3;
@@ -184,7 +184,7 @@ input:checked + .slider .off {
   color: yellow;
 }
 
-#list-descrip {
+#aboutme {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
@@ -234,6 +234,10 @@ input:checked + .slider .off {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+#stylecontactspan {
+  margin-left: 515px;
 }
 
 #contact {

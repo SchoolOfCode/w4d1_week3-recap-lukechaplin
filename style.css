@@ -16,7 +16,7 @@ body {
 @media screen and (max-width: 1020px) {
   a {
     display: flex;
-    margin-left: 75px;
+    margin-left: 25px;
   }
 }
 

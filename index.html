@@ -91,26 +91,29 @@
       </ul>
     </p>
       <p id="contact">Contact Luke</p>
-  <a class="fab fa-twitter-square" id="social" href="https://twitter.com/luke_chap" target="_blank"></a>
-  <a class="fab fa-linkedin" id="social" href="https://uk.linkedin.com/in/luke-chaplin-70a521b0?trk=people-guest_people_search-card" target="_blank"></a>
-  <a class="fab fa-instagram" id="social" href="https://www.instagram.com/lukechap47/" target="_blank"></a>
-  <a class="fab fa-google-drive" id="social" href="https://docs.google.com/document/d/199BtiXV73ikQaryhS_UeBgYTXStK1XTf/edit?usp=sharing&ouid=110206423114263329387&rtpof=true&sd=true" target="_blank"></a>
-  <a class="fab fa-github" id="social" href="https://github.com/lukechaplin" target="_blank"> </a>
-  <form name="contact" method="POST" data-netlify="true">
+      <div id="social">
+  <a class="fab fa-twitter-square" href="https://twitter.com/luke_chap" target="_blank"></a>
+  <a class="fab fa-linkedin" href="https://uk.linkedin.com/in/luke-chaplin-70a521b0?trk=people-guest_people_search-card" target="_blank"></a>
+  <a class="fab fa-instagram" href="https://www.instagram.com/lukechap47/" target="_blank"></a>
+  <a class="fab fa-google-drive" href="https://docs.google.com/document/d/199BtiXV73ikQaryhS_UeBgYTXStK1XTf/edit?usp=sharing&ouid=110206423114263329387&rtpof=true&sd=true" target="_blank"></a>
+  <a class="fab fa-github" href="https://github.com/lukechaplin" target="_blank"> </a>
+      </div>
+  <div>
+  <form id="contactForm" name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label>Your Name: <input id="field" type="text" name="name" /></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label>Your Email: <input id="field" type="email" name="email" /></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Message: <textarea id="field" name="message"></textarea></label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <button id="field" type="submit">Send</button>
   </p>
 </form>
-
+</div>
   <script src="main.js">
 </script>
 <script>

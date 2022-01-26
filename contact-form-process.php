@@ -61,7 +61,16 @@ if (isset($_POST['Email'])) {
     $email_message .= "Message: " . clean_string($message) . "\n";
 
     // create email headers
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.html");
-  }
-  ?>
+    $headers = 'From: ' . $email . "\r\n" .
+        'Reply-To: ' . $email . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+    @mail($email_to, $email_subject, $email_message, $headers);
+?>
+
+    <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
+
+    Thanks for getting in touch. We'll get back to you soon.
+
+<?php
+}
+?>

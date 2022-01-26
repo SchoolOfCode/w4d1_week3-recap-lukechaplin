@@ -20,7 +20,7 @@ if (isset($_POST['Email'])) {
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
     ) {
-        problem('We're sorry, but there appears to be a problem with the form you submitted.');
+        problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
     $name = $_POST['Name']; // required
@@ -61,16 +61,7 @@ if (isset($_POST['Email'])) {
     $email_message .= "Message: " . clean_string($message) . "\n";
 
     // create email headers
-    $headers = 'From: ' . $email . "\r\n" .
-        'Reply-To: ' . $email . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);
-?>
-
-    <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
-
-    Thanks for getting in touch. We'll get back to you soon.
-
-<?php
-}
-?>
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: index.html");
+  }
+  ?>

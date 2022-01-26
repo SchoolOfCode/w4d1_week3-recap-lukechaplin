@@ -4,6 +4,8 @@
 
 body {
   background-color: var(--primary-color);
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 #title {

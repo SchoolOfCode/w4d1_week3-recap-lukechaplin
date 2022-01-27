@@ -141,7 +141,7 @@ input:checked + .slider .off {
 }
 
 #h1:hover {
-  color: black;
+  color: whitesmoke;
 }
 
 #intro {
@@ -152,7 +152,7 @@ input:checked + .slider .off {
 }
 
 #intro:hover {
-  color: black;
+  color: whitesmoke;
 }
 
 #skills {
@@ -163,7 +163,7 @@ input:checked + .slider .off {
 }
 
 #skills:hover {
-  color: black;
+  color: whitesmoke;
 }
 
 #aboutme {
@@ -174,7 +174,7 @@ input:checked + .slider .off {
 }
 
 #aboutme:hover {
-  color: black;
+  color: whitesmoke;
 }
 
 #interesting-facts {
@@ -185,7 +185,7 @@ input:checked + .slider .off {
 }
 
 #interesting-facts:hover {
-  color: black;
+  color: whitesmoke;
 }
 
 #image {
@@ -237,7 +237,7 @@ input:checked + .slider .off {
 }
 
 #contact:hover {
-  color: black;
+  color: whitesmoke;
 }
 
 #social {

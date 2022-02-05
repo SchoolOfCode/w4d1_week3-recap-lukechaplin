@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
    <script src="https://kit.fontawesome.com/a4813e8e25.js" crossorigin="anonymous"></script>
    <title id="title">Luke Skycoder: Software development by Luke Chaplin</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -22,6 +28,9 @@
   </a>
 </div>
 <div id="darkmode">Dark Mode</div>
+<h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
 <div id="home">
   <label class="switch">
     <input type="checkbox" id="dark-mode-button">

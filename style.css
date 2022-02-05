@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #a3a5c3;
+  --primary-color: #9496b6;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #social {
@@ -23,7 +23,7 @@ body {
   font-size: 50px;
   width: 50px;
   text-decoration: none;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 @media screen and (max-width: 1020px) {
@@ -41,7 +41,7 @@ a:hover {
   font-family: "Source Code Pro", monospace;
   font-size: 17px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 /* The switch - the box around the slider */
@@ -137,7 +137,7 @@ input:checked + .slider .off {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #h1:hover {
@@ -148,7 +148,7 @@ input:checked + .slider .off {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #intro:hover {
@@ -159,7 +159,7 @@ input:checked + .slider .off {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #skills:hover {
@@ -170,7 +170,7 @@ input:checked + .slider .off {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #aboutme:hover {
@@ -181,7 +181,7 @@ input:checked + .slider .off {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #interesting-facts:hover {
@@ -197,7 +197,8 @@ input:checked + .slider .off {
   border-radius: 25px;
   display: block;
   text-align: center;
-  box-shadow: 5px 10px yellow;
+  color: rgb(209, 209, 60);
+  box-shadow: 5px 10px rgb(209, 209, 60);
 }
 
 .instagram {
@@ -233,7 +234,7 @@ input:checked + .slider .off {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 #contact:hover {
@@ -251,7 +252,7 @@ input:checked + .slider .off {
   font-size: 50px;
   width: 50px;
   text-decoration: none;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 a:hover {
@@ -269,7 +270,7 @@ a:hover {
   font-family: "Source Code Pro", monospace;
   font-size: 20px;
   font-weight: bold;
-  color: yellow;
+  color: rgb(209, 209, 60);
   border: none;
 }
 
@@ -294,7 +295,7 @@ a:hover {
 .topnav a {
   float: left;
   display: block;
-  color: yellow;
+  color: rgb(209, 209, 60);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -305,12 +306,12 @@ a:hover {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #766c7f;
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  color: yellow;
+  color: rgb(209, 209, 60);
 }
 
 /* Hide the link that should open and close the topnav on small screens */

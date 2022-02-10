@@ -1,0 +1,348 @@
+:root {
+  --primary-color: #9496b6;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+#title {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+#social {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 70px;
+  font-size: 50px;
+  width: 50px;
+  text-decoration: none;
+  color: rgb(209, 209, 60);
+}
+
+@media screen and (max-width: 1020px) {
+  #icons {
+    display: flex;
+  }
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+#darkmode {
+  margin-top: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  margin-top: 20px;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #766c7f;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #766c7f;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+.on {
+  display: none;
+}
+
+.on,
+.off {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked + .slider .on {
+  display: block;
+}
+
+input:checked + .slider .off {
+  display: none;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.h1 {
+  font-style: italic;
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(209, 209, 60);
+}
+
+#h1:hover {
+  color: whitesmoke;
+}
+
+#intro {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+#intro:hover {
+  color: whitesmoke;
+}
+
+#skills {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+#skills:hover {
+  color: whitesmoke;
+}
+
+#aboutme {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+#aboutme:hover {
+  color: whitesmoke;
+}
+
+#interesting-facts {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+#interesting-facts:hover {
+  color: whitesmoke;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  display: block;
+  text-align: center;
+  color: rgb(209, 209, 60);
+  box-shadow: 5px 10px rgb(209, 209, 60);
+}
+
+.instagram {
+  position: relative;
+  width: 80%;
+  padding-bottom: 25%;
+  height: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.instagram instagram-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+}
+
+#milkybar {
+  width: 100%;
+  height: auto;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#contact {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+}
+
+#contact:hover {
+  color: whitesmoke;
+}
+
+#social {
+  white-space: nowrap;
+}
+
+#icons {
+  display: inherit;
+  padding: 10px;
+  width: 50%;
+  font-size: 50px;
+  width: 50px;
+  text-decoration: none;
+  color: rgb(209, 209, 60);
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+#contactForm {
+  position: relative;
+  display: space;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(209, 209, 60);
+  border: none;
+}
+
+#field {
+  border-radius: 25px;
+  border: none;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dark-mode-theme {
+  --primary-color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(209, 209, 60);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #766c7f;
+  color: rgb(209, 209, 60);
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: rgb(209, 209, 60);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 1020 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1020px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1020px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

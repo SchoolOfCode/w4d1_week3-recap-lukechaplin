@@ -6,6 +6,9 @@
   Week 3 - Recap
 </h1>
 
+## LINK TO FIGMA LOW/MEDIUM FIDELITY DESIGN 
+https://www.figma.com/file/qPzA4ZXepYCz1dqoIigjQf/Page-about-me?node-id=0%3A1
+
 ## Get ready for next week
 
 Next week, we'll be delving into NodeJS, which allows us to run JavaScript outside the browser - exciting!
